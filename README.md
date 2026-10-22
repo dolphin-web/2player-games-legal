@@ -1,8 +1,8 @@
-# 🎮 Two Player Games – Play Offline
+# 🎮 Two Player Games - Play Offline
 
 **Official Legal Documentation**
 
-Welcome to the official legal documentation for **Two Player Games – Play Offline**. This repository provides public access to the application's legal policies and important information for users.
+Welcome to the official legal documentation for **Two Player Games - Play Offline**. This repository provides public access to the application's legal policies and important information for users.
 
 ---
 
@@ -16,15 +16,6 @@ Please review the following documents to understand our policies and terms of us
 | **Terms & Conditions** | Review the terms, rules, and conditions for using our application. | [Read Terms & Conditions →](https://dolphin-web.github.io/2player-games-legal/terms-and-conditions.html) |
 
 ---
-
-## ℹ️ About This Repository
-
-This repository hosts the official legal documents for the Two Player Games – Play Offline mobile application.
-
-- **Platform:** Android
-- **Purpose:** Public access to legal documentation
-- **Hosting:** GitHub Pages
-- **Availability:** Public
 
 ## 📬 Contact Us
 

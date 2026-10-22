@@ -4,8 +4,8 @@ Welcome to the official legal documentation repository for the Two Player Games 
 
 ## Important Links
 
-- **Privacy Policy:** https://sarthidws.github.io/2player-games-legal/twoplayergames/privacy-policy.html
-- **Terms & Conditions:** https://sarthidws.github.io/2player-games-legal/twoplayergames/terms-and-conditions.html
+- **Privacy Policy:** 
+- **Terms & Conditions:** 
 
 ## About This Repository
 

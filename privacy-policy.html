@@ -14,14 +14,18 @@ main{max-width:760px;margin:0 auto;padding:28px 18px 56px}
 .doc{background:#fff;border:1px solid var(--line);border-radius:10px;padding:28px 26px 30px}
 .game{font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 6px;font-weight:600}
 h1{color:var(--navy);font-size:1.9rem;line-height:1.2;margin:0 0 6px}
-.updated{color:var(--muted);font-size:.92rem;margin:0 0 10px}
+.updated{color:var(--muted);margin:0 0 10px;font-size:.95rem}
 .intro{color:var(--muted);margin:0 0 8px}
 h2{color:var(--navy);font-size:1.12rem;margin:26px 0 6px;padding-top:14px;border-top:1px solid var(--line)}
-h3{color:var(--navy);font-size:1rem;margin:14px 0 4px}
 p{margin:.5rem 0}
-ul{margin:.4rem 0 .6rem;padding-left:1.25rem}
+ul{margin:.4rem 0 .6rem;padding-left:1.2rem}
 li{margin:.25rem 0}
 a{color:var(--accent)}
+.defs{margin:10px 0 4px;padding:0}
+.defs div{padding:10px 0 10px 14px;border-top:1px solid var(--line);border-left:3px solid var(--accent)}
+.defs div:first-child{border-top:0}
+.defs dt{font-weight:600;color:var(--navy)}
+.defs dd{margin:2px 0 0}
 .foot{text-align:center;color:var(--muted);font-size:.85rem;margin-top:22px}
 @media (max-width:560px){.doc{padding:22px 18px 24px}h1{font-size:1.6rem}}
 </style>
@@ -32,72 +36,90 @@ a{color:var(--accent)}
 <article class="doc">
 <p class="game">2 Player Games - Play Offline</p>
 <h1>Privacy Policy</h1>
-<p class="updated">Last updated: 22 October 2026</p>
-<p class="intro">This policy explains what information the app handles, why, and what choices you have.</p>
+<p class="updated"><strong>Last updated:</strong> 22 October 2026</p>
+<p class="intro">This policy explains what information the “2 Player Games - Play Offline” app (the “Game”) handles, and why.</p>
 
-<h2>1. Overview</h2>
-<p>This Privacy Policy describes how “2 Player Games - Play Offline” (the “App”) handles information. The App is a free, offline game. It has no user accounts, no login and no sign-up. Most information stays on your device. The App also uses Google Firebase to collect limited analytics and crash reports. We follow the Digital Personal Data Protection Act, 2023 and the Information Technology Act, 2000 of India.</p>
+<h2>1. Introduction</h2>
+<p>This Privacy Policy describes how the Game handles information when you install or use it. It applies to the Game available on Google Play. The Game is developed and published by the team behind the email address in section 11, based in India. We handle information in line with the Digital Personal Data Protection Act, 2023 and the Information Technology Act, 2000 of India.</p>
 
-<h2>2. Information we collect</h2>
-<h3>Information stored on your device</h3>
-<p>The App saves the following in its local storage on your device: game settings (such as sound, vibration and bot difficulty), player names you type, best scores and game progress. This information is not sent to us or to any other party. It is deleted when you uninstall the App.</p>
-<h3>Information sent to Firebase</h3>
+<h2>2. Summary</h2>
 <ul>
-  <li><strong>Analytics events:</strong> custom events logged through Firebase Analytics, such as game start, game finish, game mode, bot difficulty, settings changed and session duration. Firebase also records automatic events such as first open and session start.</li>
-  <li><strong>Crash and error reports:</strong> crash reports, non-fatal exception logs, stack traces, custom keys and breadcrumb logs of recent in-game actions, collected through Firebase Crashlytics.</li>
-  <li><strong>Device information:</strong> device model, operating system version, app version, language and device state such as memory and storage.</li>
-  <li><strong>Device identifier:</strong> an identifier assigned to the device (OAID or advertising ID), used to link analytics events and crash reports from the same device. It is not used to identify you by name.</li>
-  <li><strong>Approximate region:</strong> derived from your IP address by Firebase. We do not receive your precise location.</li>
-</ul>
-<h3>Information we do not collect</h3>
-<p>We do not collect your name, email address, phone number, postal address, photographs, videos, contacts, precise location, or payment information. The App does not ask you to create an account or sign in. Player names are never included in analytics events or crash reports.</p>
-
-<h2>3. How we use information</h2>
-<p>We use the information described in section 2 only to:</p>
-<ul>
-  <li>understand how the App is played, so that we can improve it;</li>
-  <li>detect, diagnose and fix crashes and errors; and</li>
-  <li>keep the App working across different devices and operating system versions.</li>
-</ul>
-<p>We do not use this information for advertising, marketing profiles or any purpose unrelated to the App.</p>
-
-<h2>4. How analytics and crash reporting work</h2>
-<p>The App includes the Firebase Core, Firebase Analytics and Firebase Crashlytics software development kits (SDKs). These record analytics events and crash reports on your device and send them to Firebase. Events are batched and uploaded when a network connection is available, so a report may reach Firebase some time after the event occurred. The App works fully offline; analytics and crash data are sent only when you are connected.</p>
-
-<h2>5. Third-party services</h2>
-<p>The App uses the following third-party services and components. Each handles data under its own terms, in addition to this policy.</p>
-<ul>
-  <li><strong>Google Firebase (Analytics and Crashlytics):</strong> receives the analytics and crash information described in section 2. Data may be stored on Google’s servers, which may be located outside India.</li>
-  <li><strong>Google Play services:</strong> provides the advertising identifier on devices that support it. The App reads this identifier and passes it to Firebase as the device identifier.</li>
-  <li><strong>Open-source OAID library (Android_CN_OAID):</strong> reads the device identifier on the device. On some devices it queries the identifier service installed by the device manufacturer. To our knowledge, the library does not send this data to the manufacturer or to us.</li>
+  <li>The Game works offline and does not require an account, login or sign-up.</li>
+  <li>Your game data, settings, player names, scores and progress stay on your device.</li>
+  <li>We use Google Firebase Analytics and Firebase Crashlytics to understand how the Game is used and to fix crashes.</li>
+  <li>The Game does not show advertisements at this time, and we do not sell your information.</li>
 </ul>
 
-<h2>6. Advertising</h2>
-<p>The App does not show advertisements at present and does not include any advertising SDK. If this changes, we will update this policy and inform you in the App before any advertising is introduced.</p>
+<h2>3. Information we do not collect</h2>
+<p>We do not collect your name, email address, phone number, postal address, photos, videos, audio recordings, contacts, files, precise location or any other information that identifies you personally. The Game has no chat, online multiplayer or social features.</p>
 
-<h2>7. Sharing of information</h2>
-<p>We do not sell, rent or trade your information. We share it only with the service providers listed in section 5, to operate analytics and crash reporting, and where the law requires us to disclose it.</p>
-
-<h2>8. Children</h2>
-<p>The App is suitable for ages 3 and above. We do not ask anyone, including children, for personal information, and the App can be played without providing any. We do not show targeted advertising to children.</p>
-
-<h2>9. Your rights</h2>
-<p>You can:</p>
+<h2>4. Information stored on your device</h2>
+<p>The Game stores the following in local storage on your device:</p>
 <ul>
-  <li>delete all information stored on your device by uninstalling the App;</li>
-  <li>stop analytics and crash reporting by uninstalling the App, or by turning off the relevant settings on your device where available; and</li>
-  <li>ask us for information about, or the deletion of, analytics or crash data we hold about your device. Email us with your device model and device identifier so that we can locate it.</li>
+  <li>Settings, such as sound, vibration, language and bot difficulty</li>
+  <li>Player names you type into the Game</li>
+  <li>Best scores and game progress</li>
 </ul>
-<p>A parent or guardian may make these requests on behalf of a child.</p>
+<p>This information is not sent to us or to any other party. It is removed when you uninstall the Game or clear its app data.</p>
 
-<h2>10. Security</h2>
-<p>Data sent to Google is encrypted in transit. Access to our Firebase project is limited to authorised personnel. If a personal data breach occurs, we will inform the Data Protection Board of India and affected users as the law requires.</p>
+<h2>5. Analytics and crash reporting</h2>
+<p>The Game uses the Firebase Core, Firebase Analytics and Firebase Crashlytics software development kits (SDKs) provided by Google. They collect the following information:</p>
+<dl class="defs">
+  <div>
+    <dt>Analytics events</dt>
+    <dd>Custom events logged by the Game, such as starting or finishing a game, the game mode, bot difficulty, changed settings and session duration, along with standard Firebase events such as first open and session start.</dd>
+  </div>
+  <div>
+    <dt>App instance and device identifiers</dt>
+    <dd>A Firebase app instance identifier, which links events and crash reports from the same installation. Where available on the device, an Android advertising ID or OAID is also used. These identifiers are not linked to your name or other personal details by us.</dd>
+  </div>
+  <div>
+    <dt>Crash reports</dt>
+    <dd>Crash and non-fatal error reports, including stack traces, custom keys and breadcrumb logs of recent in-game actions, together with device model, operating system version and app version.</dd>
+  </div>
+  <div>
+    <dt>Approximate region</dt>
+    <dd>Firebase derives an approximate region from the IP address of the connection. We receive only aggregated reports and do not receive your precise location.</dd>
+  </div>
+</dl>
+<p>Analytics events are batched and sent when a network connection is available, so they may reach Firebase after they occurred. Player names are never included in analytics events or crash reports.</p>
 
-<h2>11. Changes to this policy</h2>
-<p>We may update this policy from time to time. When we do, we will change the “Last updated” date above and inform you in the App of any material change.</p>
+<h2>6. How we use information</h2>
+<p>We use the information described in section 5 only to:</p>
+<ul>
+  <li>Find, diagnose and fix crashes and errors</li>
+  <li>Understand which games and features are used, so we can improve the Game</li>
+  <li>Keep the Game working across different devices and Android versions</li>
+</ul>
+<p>We do not use this information for targeted advertising, to build advertising or marketing profiles, or to contact you.</p>
 
-<h2>12. Contact</h2>
-<p>For privacy questions or requests, email us at <a href="mailto:info@dolphinwebsolution.com">info@dolphinwebsolution.com</a>.</p>
+<h2>7. Third-party services</h2>
+<p>We rely on the following third parties:</p>
+<ul>
+  <li><strong>Google Firebase</strong> (Firebase Core, Analytics and Crashlytics), which processes analytics and crash data on our behalf under Google’s terms and privacy policy. You can read Google’s policy at <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</li>
+  <li><strong>Google Play services</strong>, which provides the advertising ID on devices that support it.</li>
+  <li><strong>An open-source library</strong> that reads the device identifier on the device. It does not send information to us.</li>
+</ul>
+<p>We do not sell your information, and we do not share it with advertisers or data brokers.</p>
+
+<h2>8. Advertising</h2>
+<p>The Game does not show advertisements at this time. If we add advertising in future, we will update this Privacy Policy before doing so, and we will describe the advertising network and the data it uses.</p>
+
+<h2>9. Children</h2>
+<p>The Game is suitable for ages 3 and above. We do not ask children for personal information, and a child can play every part of the Game without providing any. We do not show targeted advertising to children. Parents and guardians are encouraged to supervise children’s use of the Game and of their device.</p>
+
+<h2>10. Security and international transfers</h2>
+<p>Information sent to Google Firebase is encrypted in transit. Access to our Firebase project is limited to authorised people. Google may process analytics and crash data on servers located outside India, as permitted by law.</p>
+
+<h2>11. Your rights and contact</h2>
+<p>You may ask us what information we hold about you, or ask us to correct or erase it. Because we do not collect your name or contact details, please email us from the address you wish to use, and include your device model and app instance identifier if you have them, so that we can locate the relevant information. You can also stop all analytics collection by uninstalling the Game.</p>
+<p>Email: <a href="mailto:info@dolphinwebsolution.com">info@dolphinwebsolution.com</a></p>
+
+<h2>12. Changes to this policy</h2>
+<p>We may update this Privacy Policy from time to time. When we do, we will change the “Last updated” date at the top of this page. If a change is material, we will tell you in the Game before it takes effect.</p>
+
+<h2>13. Governing law</h2>
+<p>This Privacy Policy is governed by the laws of India. Subject to your rights under applicable law, the courts of India have jurisdiction over any dispute arising from it.</p>
 </article>
 <p class="foot">© 2 Player Games - Play Offline</p>
 </main>

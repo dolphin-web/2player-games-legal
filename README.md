@@ -1,12 +1,12 @@
-# 🎮 Two Player Games - Play Offline
+# 2 Player Games - Play Offline
 
 **Official Legal Documentation**
 
-Welcome to the official legal documentation for **Two Player Games - Play Offline**. This repository provides public access to the application's legal policies and important information for users.
+Welcome to the official legal documentation for **2 Player Games - Play Offline**. This repository provides public access to the application's legal policies and important information for users.
 
 ---
 
-## 📄 Legal Documents
+## Legal Documents
 
 Please review the following documents to understand our policies and terms of use.
 
@@ -17,11 +17,9 @@ Please review the following documents to understand our policies and terms of us
 
 ---
 
-## 📬 Contact Us
+## Contact Us
 
 Have questions about our policies or legal documents? Feel free to contact us.
-
-**Dolphin Web Solution**
 
 Email: [info@dolphinwebsolution.com](mailto:info@dolphinwebsolution.com)
 
@@ -29,10 +27,7 @@ Email: [info@dolphinwebsolution.com](mailto:info@dolphinwebsolution.com)
 
 <div align="center">
 
-**Two Player Games – Play Offline**
+**2 Player Games - Play Offline**
 
 *Play together. Have fun together.*
-
-© 2026 Dolphin Web Solution. All rights reserved.
-
 </div>
